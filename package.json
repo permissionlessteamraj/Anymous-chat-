@@ -1,0 +1,25 @@
+{
+  "name": "telegram-anonymous-chat-bot",
+  "version": "1.0.0",
+  "description": "Anonymous chat bot for Telegram",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "anonymous",
+    "chat"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
